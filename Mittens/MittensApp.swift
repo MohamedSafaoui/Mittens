@@ -11,7 +11,7 @@ import SwiftUI
 struct MittensApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoadingScreen().environmentObject(TitleTest())
         }
     }
 }
