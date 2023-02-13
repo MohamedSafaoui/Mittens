@@ -25,74 +25,77 @@ struct NewUserSignUpView: View {
             }
             Spacer()
             VStack{
-               
-                HStack{
+                VStack{
                     
-                    Image(systemName: "envelope")
-                        .padding(10)
-                    TextField("Email", text: $email)
-                        .font(.title2)
+                    HStack{
+                        
+                        Image(systemName: "envelope")
+                            .padding(10)
+                        TextField("Email", text: $email)
+                            .font(.title2)
+                    }
+                    Divider()
+                        .background(Color(.darkGray))
+                    
+                    HStack{
+                        Image(systemName: "person")
+                            .padding(10)
+                        TextField("Firstname", text: $Firstname)
+                    }
+                    Divider()
+                        .background(Color(.darkGray))
+                    HStack{
+                        Image(systemName: "person")
+                            .padding(10)
+                        TextField("Lastname", text: $Lastname)
+                    }
+                    Divider()
+                        .background(Color(.darkGray))
+                    HStack{
+                        Image(systemName: "building")
+                            .padding(10)
+                        TextField("Organization", text: $Organization)
+                    }
+                    Divider()
+                        .background(Color(.darkGray))
+                    
+                    HStack{
+                        Image(systemName: "building")
+                            .padding(10)
+                        TextField("Zipcode", text: $Zipcode)
+                    }
+                    Divider()
+                        .background(Color(.darkGray))
+                    
+                    
+                    
+                    
+                    
                 }
-                Divider()
-                    .background(Color(.darkGray))
+                Button {
+                    
+                } label: {
+                    
+                    Text("Sign Up".uppercased())
+                        .frame(width: 1000)
+                        .font(.caption)
+                        .bold()
+                        .foregroundColor(.gray)
+                        .padding()
+                        .background(
+                            Capsule()
+                                .stroke(Color.gray, lineWidth: 3.0))
+                }
+                Image("mittensLogo")
+                    .resizable()
+                    .frame(width: 500,height: 180)
+                    .padding(.top,20)
+                    .padding(.bottom,80)
                 
-                HStack{
-                    Image(systemName: "person")
-                        .padding(10)
-                    TextField("Firstname", text: $Firstname)
-                }
-                Divider()
-                    .background(Color(.darkGray))
-                HStack{
-                    Image(systemName: "person")
-                        .padding(10)
-                    TextField("Lastname", text: $Lastname)
-                }
-                Divider()
-                    .background(Color(.darkGray))
-                HStack{
-                    Image(systemName: "building")
-                        .padding(10)
-                    TextField("Organization", text: $Organization)
-                }
-                Divider()
-                    .background(Color(.darkGray))
-                
-                HStack{
-                    Image(systemName: "building")
-                        .padding(10)
-                    TextField("Zipcode", text: $Zipcode)
-                }
-                Divider()
-                    .background(Color(.darkGray))
                 
                 
                 
             }
-            Button {
-        
-            } label: {
-                
-                Text("Sign Up".uppercased())
-                    .frame(width: 1000)
-                    .font(.caption)
-                    .bold()
-                    .foregroundColor(.gray)
-                    .padding()
-                    .background(
-                        Capsule()
-                            .stroke(Color.gray, lineWidth: 3.0))
-            }
-            Image("mittensLogo")
-                .resizable()
-                .frame(width: 500,height: 180)
-                .padding(.top,20)
-                .padding(.bottom,80)
-            
-            
-            
-            
-            
             
         }
       
