@@ -79,18 +79,18 @@ struct TitleInfo: View {
         HStack{
             Spacer()
             Text("Name")
-                .font(.custom("Vanilla Caramel", size: 30))
+                .font(.title .bold())
                 .foregroundColor(Color.red)
-                .padding(.horizontal,150)
+                .padding(.horizontal,100)
                 
             Spacer()
             Text("Time")
-                .font(.custom("Vanilla Caramel", size: 30))
+                .font(.title .bold())
                 .foregroundColor(Color.red)
                 
             Spacer()
             Text("Clocking out?")
-                .font(.custom("Vanilla Caramel", size: 30))
+                .font(.title .bold())
                 .foregroundColor(Color.red)
             Spacer()
         }

@@ -102,7 +102,7 @@ struct ClockOutCheck: View {
                     ZStack{
                      
                         Rectangle()
-                            .foregroundColor(.green)
+                            .foregroundColor(.blue)
                             .frame(width: 240,height: 100)
                             .cornerRadius(30)
                             .opacity(0.9)

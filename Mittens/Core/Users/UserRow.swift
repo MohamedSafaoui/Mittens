@@ -20,15 +20,16 @@ struct UserRow: View {
                  Text(usermail)
                        .font(.title2)
                         .bold()
-                        .frame(width: 350)
+                        .frame(width: 250)
                       
                     
                     Spacer()
                    
-             //       Timmer()
-                 Text("00:00")
-                        .font(.title2)
-                         .bold()
+             UserTimer()
+                        
+//                 Text("00:00")
+//                        .font(.title2)
+//                         .bold()
                     
                     Spacer()
                     
@@ -42,7 +43,7 @@ struct UserRow: View {
                             .foregroundColor(.white)
                             .padding(.vertical, 15)
                             .padding(.horizontal,15)
-                            .background(Color.red
+                            .background(Color.blue
                                 .opacity(2)
                                 .cornerRadius(10))
                                 

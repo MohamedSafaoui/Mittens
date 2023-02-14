@@ -16,7 +16,6 @@
 		BF02584D2998314E00EBD918 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0258392998314E00EBD918 /* SettingsPage.swift */; };
 		BF02584F2998314E00EBD918 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02583C2998314E00EBD918 /* LoadingScreen.swift */; };
 		BF0258502998314E00EBD918 /* MainScreenWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02583D2998314E00EBD918 /* MainScreenWelcome.swift */; };
-		BF0258512998314E00EBD918 /* Timmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02583E2998314E00EBD918 /* Timmer.swift */; };
 		BF0258522998314E00EBD918 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02583F2998314E00EBD918 /* MainScreenView.swift */; };
 		BF0258532998314E00EBD918 /* ClockOutCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0258422998314E00EBD918 /* ClockOutCheck.swift */; };
 		BF0258542998314E00EBD918 /* NewUserSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0258442998314E00EBD918 /* NewUserSignUpView.swift */; };
@@ -25,6 +24,7 @@
 		BF0258572998314E00EBD918 /* ImputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0258492998314E00EBD918 /* ImputField.swift */; };
 		BF0258582998314E00EBD918 /* RoundedShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02584A2998314E00EBD918 /* RoundedShapes.swift */; };
 		BF02585C2998360500EBD918 /* Vanilla-Caramel.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF02585B2998360500EBD918 /* Vanilla-Caramel.otf */; };
+		BF025860299BCBF900EBD918 /* UserTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02585F299BCBF900EBD918 /* UserTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,6 @@
 		BF0258392998314E00EBD918 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		BF02583C2998314E00EBD918 /* LoadingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
 		BF02583D2998314E00EBD918 /* MainScreenWelcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenWelcome.swift; sourceTree = "<group>"; };
-		BF02583E2998314E00EBD918 /* Timmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timmer.swift; sourceTree = "<group>"; };
 		BF02583F2998314E00EBD918 /* MainScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		BF0258422998314E00EBD918 /* ClockOutCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockOutCheck.swift; sourceTree = "<group>"; };
 		BF0258442998314E00EBD918 /* NewUserSignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserSignUpView.swift; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		BF02584A2998314E00EBD918 /* RoundedShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShapes.swift; sourceTree = "<group>"; };
 		BF02585A299834CF00EBD918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BF02585B2998360500EBD918 /* Vanilla-Caramel.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vanilla-Caramel.otf"; sourceTree = "<group>"; };
+		BF02585F299BCBF900EBD918 /* UserTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +124,9 @@
 		BF02583A2998314E00EBD918 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
+				BF02583F2998314E00EBD918 /* MainScreenView.swift */,
 				BF02583C2998314E00EBD918 /* LoadingScreen.swift */,
 				BF02583D2998314E00EBD918 /* MainScreenWelcome.swift */,
-				BF02583E2998314E00EBD918 /* Timmer.swift */,
-				BF02583F2998314E00EBD918 /* MainScreenView.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -162,6 +161,7 @@
 			children = (
 				BF0258462998314E00EBD918 /* UserRow.swift */,
 				BF0258472998314E00EBD918 /* NameUserRow.swift */,
+				BF02585F299BCBF900EBD918 /* UserTimer.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -256,11 +256,11 @@
 				BF0258552998314E00EBD918 /* UserRow.swift in Sources */,
 				BF0258502998314E00EBD918 /* MainScreenWelcome.swift in Sources */,
 				BF02584B2998314E00EBD918 /* Data.swift in Sources */,
+				BF025860299BCBF900EBD918 /* UserTimer.swift in Sources */,
 				BF02582829982D5F00EBD918 /* MittensApp.swift in Sources */,
 				BF0258542998314E00EBD918 /* NewUserSignUpView.swift in Sources */,
 				BF02584D2998314E00EBD918 /* SettingsPage.swift in Sources */,
 				BF0258562998314E00EBD918 /* NameUserRow.swift in Sources */,
-				BF0258512998314E00EBD918 /* Timmer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
