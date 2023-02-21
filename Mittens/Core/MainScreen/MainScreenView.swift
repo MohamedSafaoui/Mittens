@@ -15,7 +15,7 @@ struct MainScreenView: View {
     @State private var showMenu = false
     @State private var showSettings: Bool = false
     
-    let usersEmail: [String] = ["joe","mike"]
+    let usersEmail: [String] = ["john Doe", "Mo Safaoui", "Charles Doe","Ibrahim Helwani", "Hisham Helwani", "Sahil Haroon"]
 
   
     
@@ -79,19 +79,20 @@ struct TitleInfo: View {
         HStack{
             Spacer()
             Text("Name")
-                .font(.title .bold())
-                .foregroundColor(Color.red)
+                .font(.title2 .bold())
+                .foregroundColor(Color.blue)
                 .padding(.horizontal,100)
+              
                 
             Spacer()
             Text("Time")
-                .font(.title .bold())
-                .foregroundColor(Color.red)
+                .font(.title2 .bold())
+                .foregroundColor(Color.blue)
                 
             Spacer()
             Text("Clocking out?")
-                .font(.title .bold())
-                .foregroundColor(Color.red)
+                .font(.title2 .bold())
+                .foregroundColor(Color.blue)
             Spacer()
         }
     }

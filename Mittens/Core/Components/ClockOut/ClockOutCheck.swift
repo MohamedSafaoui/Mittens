@@ -58,9 +58,11 @@ struct ClockOutCheck: View {
                         
                         TextEditor(text: $UserComments)
                             .frame(width: 500, height: 200)
-
-                           .background(Color.gray.opacity(0.03))
-                            .colorMultiply(.gray.opacity(0.3))
+                            .font(.largeTitle)
+                            .bold()
+                            .foregroundColor(.red)
+                         
+                            .colorMultiply(.gray.opacity(0.4))
                             .textFieldStyle(.roundedBorder)
                           
                             .cornerRadius(30)

@@ -25,10 +25,11 @@
 		BF0258582998314E00EBD918 /* RoundedShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02584A2998314E00EBD918 /* RoundedShapes.swift */; };
 		BF02585C2998360500EBD918 /* Vanilla-Caramel.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF02585B2998360500EBD918 /* Vanilla-Caramel.otf */; };
 		BF025860299BCBF900EBD918 /* UserTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02585F299BCBF900EBD918 /* UserTimer.swift */; };
+		BF0D8899299E687600A0D28F /* userInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0D8898299E687600A0D28F /* userInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF02582429982D5F00EBD918 /* Mittens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mittens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02582429982D5F00EBD918 /* MittensForD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MittensForD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF02582729982D5F00EBD918 /* MittensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MittensApp.swift; sourceTree = "<group>"; };
 		BF02582929982D5F00EBD918 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF02582B29982D6100EBD918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		BF02585A299834CF00EBD918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BF02585B2998360500EBD918 /* Vanilla-Caramel.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vanilla-Caramel.otf"; sourceTree = "<group>"; };
 		BF02585F299BCBF900EBD918 /* UserTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTimer.swift; sourceTree = "<group>"; };
+		BF0D8898299E687600A0D28F /* userInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +74,7 @@
 		BF02582529982D5F00EBD918 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF02582429982D5F00EBD918 /* Mittens.app */,
+				BF02582429982D5F00EBD918 /* MittensForD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				BF0258442998314E00EBD918 /* NewUserSignUpView.swift */,
+				BF0D8898299E687600A0D28F /* userInput.swift */,
 			);
 			path = signup_confirm;
 			sourceTree = "<group>";
@@ -178,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF02582329982D5F00EBD918 /* Mittens */ = {
+		BF02582329982D5F00EBD918 /* MittensForD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF02583229982D6100EBD918 /* Build configuration list for PBXNativeTarget "Mittens" */;
+			buildConfigurationList = BF02583229982D6100EBD918 /* Build configuration list for PBXNativeTarget "MittensForD" */;
 			buildPhases = (
 				BF02582029982D5F00EBD918 /* Sources */,
 				BF02582129982D5F00EBD918 /* Frameworks */,
@@ -190,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = Mittens;
+			name = MittensForD;
 			productName = Mittens;
-			productReference = BF02582429982D5F00EBD918 /* Mittens.app */;
+			productReference = BF02582429982D5F00EBD918 /* MittensForD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF02581F29982D5F00EBD918 /* Build configuration list for PBXProject "Mittens" */;
+			buildConfigurationList = BF02581F29982D5F00EBD918 /* Build configuration list for PBXProject "MittensForD" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,7 +226,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF02582329982D5F00EBD918 /* Mittens */,
+				BF02582329982D5F00EBD918 /* MittensForD */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +258,7 @@
 				BF02582A29982D5F00EBD918 /* ContentView.swift in Sources */,
 				BF0258552998314E00EBD918 /* UserRow.swift in Sources */,
 				BF0258502998314E00EBD918 /* MainScreenWelcome.swift in Sources */,
+				BF0D8899299E687600A0D28F /* userInput.swift in Sources */,
 				BF02584B2998314E00EBD918 /* Data.swift in Sources */,
 				BF025860299BCBF900EBD918 /* UserTimer.swift in Sources */,
 				BF02582829982D5F00EBD918 /* MittensApp.swift in Sources */,
@@ -393,6 +397,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mittens/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -402,7 +408,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Acadmy.Mittens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -423,6 +429,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mittens/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Acadmy.Mittens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -444,7 +452,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF02581F29982D5F00EBD918 /* Build configuration list for PBXProject "Mittens" */ = {
+		BF02581F29982D5F00EBD918 /* Build configuration list for PBXProject "MittensForD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF02583029982D6100EBD918 /* Debug */,
@@ -453,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF02583229982D6100EBD918 /* Build configuration list for PBXNativeTarget "Mittens" */ = {
+		BF02583229982D6100EBD918 /* Build configuration list for PBXNativeTarget "MittensForD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF02583329982D6100EBD918 /* Debug */,
